@@ -26,7 +26,7 @@ jobs:
     -
       name: Lighthouse Desktop
       id: lighthouse-desktop
-      uses: foo-software/lighthouse-check-action@v9.1.0
+      uses: foo-software/lighthouse-check-action@v9.1.1
       with:
         maxRetries: 5
         outputDirectory: ${{ github.workspace }}/tmp/artifacts/desktop
