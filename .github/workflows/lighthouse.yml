@@ -46,7 +46,7 @@ jobs:
     -
       name: Lighthouse Mobile
       id: lighthouse-mobile
-      uses: foo-software/lighthouse-check-action@v9.1.0
+      uses: foo-software/lighthouse-check-action@v9.1.1
       with:
         maxRetries: 5
         outputDirectory: ${{ github.workspace }}/tmp/artifacts/mobile
